@@ -2,34 +2,22 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">PROPUESTA DE VALOR</h2>
+                <h2 class="section-heading">{{ site.services_header }}</h2>
                 <hr class="primary">
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
+            {% for service in site.services %}            
             <div class="col-lg-4 col-md-4 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-user wow bounceIn text-primary"></i>
-                    <h3>Cliente</h3>
-                    <p class="text-muted">Recibe ofertas acorde a sus necesidades generando ahorros en su consumo y recibiendo una experiencia memorable con su banco y los comenrcios asociados</p>
+                    <i class="fa fa-4x {{ service[0] }} wow bounceIn text-primary"></i>
+                    <h3>{{ service[1] }}</h3>
+                    <p class="text-muted">{{ service[2] }}</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-shopping-basket wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Comercios</h3>
-                    <p class="text-muted">Rentabilizar su costo de marketing al generar campañas dirigidas sobre clientes de mayor interés y mejores tasas de respuesta.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-university wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Bancos</h3>
-                    <p class="text-muted">Cliente se vincula por canales digitales aumentando la relación transaccional y el numero de transacciones sin exponer la información del cliente.</p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

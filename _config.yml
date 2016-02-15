@@ -1,12 +1,46 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+title: "GouNau"
+email: "info@gounau.com"
+description: "Rentabilizamos la relación entre comercios y bancos" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+# Contact info
+twitter_username: "gounau"
+facebook_username: "gounau"
+phone: "+56 9 97467166"
+
+# Text of the site
+header_h1: "Entregamos ofertas a los clientes de acuerdo a su estilo de vida"
+header_p: "Rentabilizando la relación entre comercios y bancos"
+header_call: "Ve el video"
+
+como_header: "Como funciona"
+como_text: "GouNau es una plataforma en la cual el cliente vive una experiencia enriquecedora con su banco recibiendo promociones asertivas de los comercios acorde a su estilo de vida."
+como_img: ""
+
+services_header: "Propuesta de valor"
+services: [
+    [
+        'fa-user',
+        'Cliente', 
+        'Recibe ofertas acorde a sus necesidades generando ahorros en su consumo y recibiendo una experiencia memorable con su banco y los comenrcios asociados.'
+    ],
+    [
+        'fa-shopping-basket',
+        'Comercios',
+        'Rentabilizar su costo de marketing al generar campañas dirigidas sobre clientes de mayor interés y mejores tasas de respuesta.'
+    ],
+    [
+        'fa-university',
+        'Bancos',
+        'Cliente se vincula por canales digitales aumentando la relación transaccional y el numero de transacciones sin exponer la información del cliente.'
+    ]
+]
+
+contact_header: "Hablemos"
+contact_text: "Si te intereza saber más no dudes en ponerte en contacto con nosotros al correo y telefono que salen abajo. Siempre estamos dispuesto a ayudar."
+contact_phone: "Tambien podemos conversar en el siguiente numero: "
 
 # Build settings
 markdown: kramdown
