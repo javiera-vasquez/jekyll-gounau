@@ -42,6 +42,25 @@
         }
     })
 
+    var player;
+
+    function loadVideo() {
+        player = new YT.Player('player', {
+            width: '100%',
+            videoId: 'loFtozxZG0s',
+        });
+    }
+
+    $('#myModal').on('hide.bs.modal', function (e) {
+        player.stopVideo();
+    });
+
+    $('#myModal').on('shown.bs.modal', function (e) {
+        player.playVideo();
+    });
+
+    window.onload = loadVideo();
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 

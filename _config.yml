@@ -15,7 +15,7 @@ header_h1: "Entregamos ofertas a los clientes de acuerdo a su estilo de vida"
 header_p: "Rentabilizando la relación entre comercios y bancos"
 header_call: "Ve el video"
 
-como_header: "Como funciona"
+como_header: "Cómo funciona"
 como_text: "GouNau es una plataforma en la cual el cliente vive una experiencia enriquecedora con su banco recibiendo promociones asertivas de los comercios acorde a su estilo de vida."
 como_img: ""
 
@@ -24,7 +24,7 @@ services: [
     [
         'fa-user',
         'Cliente', 
-        'Recibe ofertas acorde a sus necesidades generando ahorros en su consumo y recibiendo una experiencia memorable con su banco y los comenrcios asociados.'
+        'Recibe ofertas acorde a sus necesidades generando ahorros en su consumo y recibiendo una experiencia memorable con su banco y los comercios asociados.'
     ],
     [
         'fa-shopping-basket',
@@ -34,13 +34,14 @@ services: [
     [
         'fa-university',
         'Bancos',
-        'Cliente se vincula por canales digitales aumentando la relación transaccional y el numero de transacciones sin exponer la información del cliente.'
+        'Cliente se vincula por canales digitales aumentando la relación transaccional y el número de transacciones sin exponer la información del cliente.'
     ]
 ]
 
 contact_header: "Hablemos"
-contact_text: "Si te intereza saber más no dudes en ponerte en contacto con nosotros al correo y telefono que salen abajo. Siempre estamos dispuesto a ayudar."
-contact_phone: "Tambien podemos conversar en el siguiente numero: "
+contact_text: "Si te interesa saber más no dudes en ponerte en contacto con nosotros al correo y telefono que salen abajo. Siempre estamos dispuesto a ayudar."
+contact_phone: "También podemos conversar en el siguiente número: "
 
 # Build settings
 markdown: kramdown
+
